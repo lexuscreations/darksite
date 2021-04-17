@@ -1,0 +1,62 @@
+.sec2 {
+    background: url('../../img/339550908555_7c5a9ea7c0_k.jpg');
+}
+
+section.sec2 .placeBox {
+    position: relative;
+    max-width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background: #000;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+section.sec2 .placeBox .imgBx {
+    width: 100%;
+    height: 100%;
+}
+
+section.sec2 .placeBox .imgBx img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+section.sec2 .placeBox .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-end;
+}
+
+section.sec2 .placeBox .content h3 {
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, .95);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    box-shadow: 2px 2px 18px 2px #585656;
+}
+
+section.sec2 .placeBox .content h3 span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+section.sec2 .placeBoxCon.active {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+section.sec2 .placeBoxCon.active h3 {
+    box-shadow: 2px 2px 12px 2px #302f2f;
+}

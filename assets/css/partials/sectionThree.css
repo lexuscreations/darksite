@@ -1,0 +1,23 @@
+.sec3 {
+    background: url('../../img/339550908555_7c5a9ea7c0_k.jpg');
+}
+
+section.sec3_5 .placeBoxConMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+section.sec3_5 .placeBox .content h3 {
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, .95);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+}

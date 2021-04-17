@@ -1,0 +1,64 @@
+.contactFormSendBtn,
+.customBtn {
+    border: 2px solid #fff;
+    color: #000;
+    background: #fff;
+    border-radius: 50px;
+    padding: 15px 50px;
+    font-size: 1.15rem;
+    outline: none;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+}
+
+.contactFormSendBtn:hover,
+.customBtn:hover {
+    color: #f4511e;
+    font-weight: bolder;
+}
+
+.contactFormSendBtn span,
+.customBtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.contactFormSendBtn span:after,
+.customBtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.contactFormSendBtn:hover span,
+.customBtn:hover span {
+    padding-right: 25px;
+}
+
+.contactFormSendBtn:hover span:after,
+.customBtn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.customBtn {
+    background: #262626;
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    padding: 10px 20px;
+    float: center;
+}
+
+.customBtn:hover {
+    color: rgb(255, 255, 255, 1);
+    letter-spacing: 2px;
+    font-weight: bolder;
+}

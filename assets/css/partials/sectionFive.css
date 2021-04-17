@@ -1,0 +1,42 @@
+.sec5 {
+    background: url('../../img/traffic-night-city-blur-background-footage-088156067_prevstill.jpeg');
+    height: auto !important;
+}
+
+.sec5 form {
+    position: relative;
+}
+
+.sec5 .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    height: 50px;
+    border-radius: 0;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.sec5 .font-control:focus,
+.sec5 .font-control:hover {
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+    box-shadow: none;
+}
+
+.sec5 .textarea {
+    min-height: 100px;
+}
+
+.sec5 label {
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+section.sec5 .sec5Heading h2,
+section.sec5 .sec5Heading p {
+    background-color: #98aaaa12;
+    color: #ae93cb;
+    display: inline-block;
+}

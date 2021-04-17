@@ -1,0 +1,54 @@
+footer {
+    background: #000;
+    padding: 50px 0 0;
+}
+
+footer ul.socialLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul.socialLinks li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+footer ul.socialLinks li a {
+    color: #777;
+    font-size: 2em;
+}
+
+footer ul.socialLinks li a[title="facebook"]:hover {
+    color: #3b5998;
+}
+
+footer ul.socialLinks li a[title="twitter"]:hover {
+    color: #1DA1F2;
+}
+
+footer ul.socialLinks li a[title="googlePlus"]:hover {
+    color: #db4a39;
+}
+
+footer ul.socialLinks li a[title="linkedin"]:hover {
+    color: #0e76a8;
+}
+
+footer ul.socialLinks li a[title="instagram"]:hover {
+    color: #e95950;
+}
+
+footer .copyRightSec {
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+}
+
+footer .copyRightSec a {
+    color: #4078c0;
+}
+
+.copyRightSec a:hover {
+    color: #31527e;
+}
